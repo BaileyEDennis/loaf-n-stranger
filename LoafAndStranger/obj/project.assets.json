@@ -1300,19 +1300,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cloja\\.nuget\\packages\\": {}
+    "C:\\Users\\baile\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cloja\\source\\repos\\Back-End\\LoafAndStranger\\LoafAndStranger\\LoafAndStranger.csproj",
+      "projectUniqueName": "C:\\Users\\baile\\Source\\Repos\\Loaf-and-Stranger\\LoafAndStranger\\LoafAndStranger.csproj",
       "projectName": "LoafAndStranger",
-      "projectPath": "C:\\Users\\cloja\\source\\repos\\Back-End\\LoafAndStranger\\LoafAndStranger\\LoafAndStranger.csproj",
-      "packagesPath": "C:\\Users\\cloja\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cloja\\source\\repos\\Back-End\\LoafAndStranger\\LoafAndStranger\\obj\\",
+      "projectPath": "C:\\Users\\baile\\Source\\Repos\\Loaf-and-Stranger\\LoafAndStranger\\LoafAndStranger.csproj",
+      "packagesPath": "C:\\Users\\baile\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\baile\\Source\\Repos\\Loaf-and-Stranger\\LoafAndStranger\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\cloja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\baile\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

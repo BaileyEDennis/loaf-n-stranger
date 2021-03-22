@@ -11,5 +11,7 @@ namespace LoafAndStranger.Models
         public int NumberOfSeats { get; set; }
         public bool Occupied { get; set; }
 
+        //One to many relationship
+        public List<Stranger> Strangers { get; set; }
     }
 }

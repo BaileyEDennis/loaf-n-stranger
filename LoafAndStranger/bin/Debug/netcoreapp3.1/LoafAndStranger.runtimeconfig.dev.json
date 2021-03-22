@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\cloja\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\cloja\\.nuget\\packages"
+      "C:\\Users\\baile\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\baile\\.nuget\\packages"
     ]
   }
 }

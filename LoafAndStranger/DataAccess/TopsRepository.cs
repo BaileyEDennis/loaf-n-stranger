@@ -17,25 +17,41 @@ namespace LoafAndStranger.DataAccess
         {
             using var db = new SqlConnection(ConnectionString);
 
-            var sql = @"Select * 
-                        From Tops";
+            //var topsSql = @"Select * From Tops";
+            //var strangersSql = @"Select * from strangers where topid = @id";
 
-            var results = db.Query<Top>(sql);
+            //var tops = db.Query<Top>(topsSql);
+
+            //foreach (var top in tops)
+            //{
+            // var relatedStrangers = db.Query<Stranger>(strangersSql, top);
+            // top.Strangers = relatedStrangers.ToList();
+            //}
 
             //Name of properties HAVE to be the same as the names in SQL
+            var topsSql = @"Select * From Tops";
+            var strangersSql = "Select * from strangers where topid is not null";
 
-            return results;
+            var tops = db.Query<Top>(topsSql);
+            var strangers = db.Query<Stranger>(strangersSql);
+
+            foreach (var top in tops)
+            {
+                top.Strangers = strangers.Where(s => s.TopId == top.Id).ToList();
+            }
+            return tops;
         }
 
         public Top Add(int numberOfSeats)
         {
 
-                using var db = new SqlConnection(ConnectionString);
+            using var db = new SqlConnection(ConnectionString);
 
-                var sql = @"INSERT INTO [dbo].[Tops]([NumberOfSeats])
+            var sql = @"INSERT INTO [dbo].[Tops]([NumberOfSeats])
                             output inserted.*
                             VALUES(@numberOfSeats)";
             var top = db.QuerySingle<Top>(sql, new { numberOfSeats });
             return top;
+        }
     }
 }
