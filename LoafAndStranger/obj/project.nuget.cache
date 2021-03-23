@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y/VC377hlIbprPuTV7oqS9XHwjQg4PGfUbeVWMc1zHaN4YA2EVrTRxIfv2A+3POdiRa60QpX8tlkvRvfJkw4Lw==",
+  "dgSpecHash": "aN1OnYDo/m4XnAHk501KdCdxvTnIFNQEEsS4Ya7Rbsf50wC/au2roh8c1r+7jXZJD9o9ovwBl/COozbevarUQA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\baile\\Source\\Repos\\Loaf-and-Stranger\\LoafAndStranger\\LoafAndStranger.csproj",
+  "projectFilePath": "C:\\Users\\baile\\source\\repos\\Loaf-and-Stranger\\LoafAndStranger\\LoafAndStranger.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\baile\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
     "C:\\Users\\baile\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
