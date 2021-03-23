@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\baile\\source\\repos\\Loaf-and-Stranger\\LoafAndStranger\\LoafAndStranger.csproj": {}
+    "C:\\Users\\baile\\Source\\Repos\\Loaf-and-Stranger\\LoafAndStranger\\LoafAndStranger.csproj": {}
   },
   "projects": {
-    "C:\\Users\\baile\\source\\repos\\Loaf-and-Stranger\\LoafAndStranger\\LoafAndStranger.csproj": {
+    "C:\\Users\\baile\\Source\\Repos\\Loaf-and-Stranger\\LoafAndStranger\\LoafAndStranger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\baile\\source\\repos\\Loaf-and-Stranger\\LoafAndStranger\\LoafAndStranger.csproj",
+        "projectUniqueName": "C:\\Users\\baile\\Source\\Repos\\Loaf-and-Stranger\\LoafAndStranger\\LoafAndStranger.csproj",
         "projectName": "LoafAndStranger",
-        "projectPath": "C:\\Users\\baile\\source\\repos\\Loaf-and-Stranger\\LoafAndStranger\\LoafAndStranger.csproj",
+        "projectPath": "C:\\Users\\baile\\Source\\Repos\\Loaf-and-Stranger\\LoafAndStranger\\LoafAndStranger.csproj",
         "packagesPath": "C:\\Users\\baile\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\baile\\source\\repos\\Loaf-and-Stranger\\LoafAndStranger\\obj\\",
+        "outputPath": "C:\\Users\\baile\\Source\\Repos\\Loaf-and-Stranger\\LoafAndStranger\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\baile\\AppData\\Roaming\\NuGet\\NuGet.Config",
